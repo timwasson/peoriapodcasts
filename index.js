@@ -10,7 +10,11 @@ var braider_options = {
     indent              : "    ",
     date_sort_order     : "desc", // Newest first
     plugins_directories : [__dirname + "/plugins/"],
-    log_level           : 'debug'
+    log_level           : 'debug',
+    custom_namespaces   : {
+      'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd',
+      'xsl': 'http://www.w3.org/1999/XSL/Transform'
+    }
 };
 var rss_braider = RssBraider.createClient(braider_options);
 
