@@ -10,27 +10,25 @@ var braider_options = {
     indent              : "    ",
     date_sort_order     : "desc", // Newest first
     plugins_directories : [__dirname + "/plugins/"],
-    log_level           : 'debug',
-    custom_namespaces   : {
-      'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd',
-      'xsl': 'http://www.w3.org/1999/XSL/Transform'
-    }
+    log_level           : 'debug'
 };
 var rss_braider = RssBraider.createClient(braider_options);
 
 // Set logging level (debug, info, warn, err)
 rss_braider.logger.level('info');
+cron.schedule('0 * * * *', function(){
+  console.log('Building XML; It does this once per hour');
 
-rss_braider.processFeed('ppa', 'rss', function(err, data){
-  if (err) {
-    return console.log(err);
-  }
-  console.log(data);
-  fs.writeFile('./dist/feed.xml', data, function (err) {
+  rss_braider.processFeed('ppa', 'rss', function(err, data){
     if (err) {
-       console.error(err);
-    } else {
-       console.log('Peoria Podcast Feed written');
+      return console.log(err);
     }
+    fs.writeFile('./dist/feed.xml', data, function (err) {
+      if (err) {
+         console.error(err);
+      } else {
+         console.log('Peoria Podcast Feed written');
+      }
+    });
   });
 });

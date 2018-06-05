@@ -6,8 +6,41 @@ feed = {
     "plugins": ['add_itunes_elements'],
     "meta" : {
         "title": "Peoria Podcast Alliance",
-        "description": "all the feeds from Peoria Podcasters"
+        "description": "The Peoria Podcast Alliance is a group of podcasters from Central Illinois who do shows on a wide variety of topics. ",
+        "generator": "PPA",
+        "link": "http://peoriapodcasts.com/feed.xml",
+        "custom_elements" : [
+          {'itunes:subtitle': 'Podcasts created by members of the Peoria Podcast Alliance'},
+          {'itunes:author': 'PPA'},
+          {'itunes:summary': 'Shows created by the Peoria Podcast Alliance'},
+          {'itunes:owner': [
+              {'itunes:name': 'PPA'},
+              {'itunes:email': 'wasson@gmail.com'}
+            ]},
+            {'itunes:image': {
+              _attr: {
+                href: 'http://peoriapodcasts.com/img/ppa.jpg'
+              }
+            }},
+            {'itunes:category': [
+              {_attr: {
+                text: 'Technology'
+              }},
+              {'itunes:category': {
+                _attr: {
+                  text: 'Gadgets'
+                }
+              }}
+            ]}
+        ]
     },
+    "custom_namespaces" : {
+      'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd',
+      'xsl': 'http://www.w3.org/1999/XSL/Transform'
+    },
+    
+    "language": 'en',
+    "categories": ['Category 1','Category 2','Category 3'],
     "sources" : [
         {
             "name"              : "Graveyard Duck",

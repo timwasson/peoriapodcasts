@@ -1,2 +1,14 @@
 body {
   background: black; }
+
+.logo {
+  max-width: 600px;
+  margin: 0 auto; }
+  .logo svg {
+    fill: white; }
+
+.rss {
+  margin: 50px auto;
+  max-width: 50px; }
+  .rss svg {
+    fill: orange; }

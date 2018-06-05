@@ -1,9 +1,13 @@
 doctype html
 html(lang="en")
   head
-    title= pageTitle
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title= "Peoria Podcast Alliance"
     link(rel="stylesheet" href="css/style.css")
   body
     h1 Peoria Podcast Alliance
-    #container.col
+    section.logo
       include ./img/ppa.svg
+    div.rss
+      a(href="feed.xml")
+        include ./img/rss.svg
