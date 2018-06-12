@@ -8,7 +8,9 @@ feed = {
         "title": "Peoria Podcast Alliance",
         "description": "The Peoria Podcast Alliance is a group of podcasters from Central Illinois who do shows on a wide variety of topics. ",
         "generator": "PPA",
-        "link": "http://peoriapodcasts.com/feed.xml",
+        "feed_url": "http://peoriapodcasts.com/feed.xml",
+        "site_url": "http://peoriapodcasts.com/",
+        "image_url": "http://peoriapodcasts.com/img/ppa.jpg",
         "custom_elements" : [
           {'itunes:subtitle': 'Podcasts created by members of the Peoria Podcast Alliance'},
           {'itunes:author': 'PPA'},
