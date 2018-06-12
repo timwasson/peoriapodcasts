@@ -7,12 +7,13 @@ feed = {
     "meta" : {
         "title": "Peoria Podcast Alliance",
         "description": "The Peoria Podcast Alliance is a group of podcasters from Central Illinois who do shows on a wide variety of topics. ",
+        "language": "en",
         "generator": "PPA",
         "feed_url": "http://peoriapodcasts.com/feed.xml",
         "site_url": "http://peoriapodcasts.com/",
         "image_url": "http://peoriapodcasts.com/img/ppa.jpg",
-        "language": "en-us",
         "custom_elements" : [
+          {'language': 'en-us'},
           {'itunes:subtitle': 'Podcasts created by members of the Peoria Podcast Alliance'},
           {'itunes:author': 'PPA'},
           {'itunes:summary': 'Shows created by the Peoria Podcast Alliance'},
@@ -42,9 +43,6 @@ feed = {
       'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd',
       'xsl': 'http://www.w3.org/1999/XSL/Transform'
     },
-    
-    "language": 'en',
-    "categories": ['Category 1','Category 2','Category 3'],
     "sources" : [
         {
             "name"              : "Graveyard Duck",
