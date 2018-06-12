@@ -11,10 +11,12 @@ feed = {
         "feed_url": "http://peoriapodcasts.com/feed.xml",
         "site_url": "http://peoriapodcasts.com/",
         "image_url": "http://peoriapodcasts.com/img/ppa.jpg",
+        "language": "en-us",
         "custom_elements" : [
           {'itunes:subtitle': 'Podcasts created by members of the Peoria Podcast Alliance'},
           {'itunes:author': 'PPA'},
           {'itunes:summary': 'Shows created by the Peoria Podcast Alliance'},
+          {'itunes:explicit': 'Yes'},
           {'itunes:owner': [
               {'itunes:name': 'PPA'},
               {'itunes:email': 'wasson@gmail.com'}
