@@ -1,19 +1,104 @@
 body {
-  background: black;
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5rem;
+  padding: 0;
+}
+
+.heading {
+  font-family: "kulturista-web";
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 1em;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  text-transform: uppercase;
+  @media screen and (min-width: 767px) {
+    margin: 0 auto;
+    max-width: 750px;
+  }
+}
+
+.about {
+  p {
+    padding-bottom: 20px;
+  }
 }
 
 .logo {
-  max-width: 600px;
+  background-attachment: fixed;
+  background-image: url("../img/headerBG.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
   margin: 0 auto;
+  width: 100%;
   svg {
+    display: block;
     fill: white;
+    filter: drop-shadow(0 0 15px rgba(0,0,0,.7));
+    margin: 0 auto;
+    max-width: 450px;
+    transform: translateY(-70px);
+    width: 70%;
+  }
+}
+
+.links-container {
+  background-color: #feda09;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  @media screen and (min-width: 767px) {
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 750px;
+  }
+}
+
+.intro {
+  
+  @media screen and (min-width: 767px) {
+    width: 50%;
+  }
+}
+
+.apple,
+.google,
+.rss {
+  align-self: center;
+  padding: 1em;
+  text-align: center;
+  svg {
+    height: 40px;
   }
 }
 
 .rss {
-  margin: 50px auto;
-  max-width: 50px;
   svg {
     fill: orange;
+  }
+}
+
+.join,
+.about {
+  p {
+    @media screen and (min-width: 767px) {
+      margin: 0 auto;
+      max-width: 750px;
+    }
+  }
+}
+
+.follow {
+  display: flex;
+  justify-content: center;
+  svg {
+    height: 75px;
+    padding: 20px;
   }
 }

@@ -3,11 +3,32 @@ html(lang="en")
   head
     meta(name="viewport" content="width=device-width, initial-scale=1")
     title= "Peoria Podcast Alliance"
+    link(rel="stylesheet" href="https://use.typekit.net/oaj7naq.css")
     link(rel="stylesheet" href="css/style.css")
   body
-    h1 Peoria Podcast Alliance
     section.logo
       include ./img/ppa.svg
-    div.rss
-      a(href="feed.xml")
-        include ./img/rss.svg
+    section.about
+      h1.about.heading Peoria Podcast Alliance
+      p We’re a group of podcasters in Peoria, joining forces to share the hobby and love of podcasting and producing. We’re looking for people who love entertaining, educating, and producing high-quality and fun shows in and around Peoria.
+    section.links-container
+      div.links
+        div.intro
+          p All shows that the Alliance produces are available in your favorite podcasting app. Use the links to listen and subscribe.
+        div.apple
+          a(href="https://itunes.apple.com/us/podcast/peoria-podcast-alliance/id1397664628?mt=2")
+            include ./img/apple-podcast-badge.svg
+        div.google
+          a(href="https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/Iiebp7iantickm4y4fxldyyn2pq?t%3DPeoria_Podcast_Alliance%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16")
+            include ./img/google-play-badge.svg
+        div.rss
+          a(href="feed.xml")
+            include ./img/rss.svg
+    section.join
+      h2.join.heading Join the Alliance
+      p Follow us below and join our next meetup, or #[a( href='mailto:yo@peoriapodcasts.com' ) send us an email].
+      p.follow 
+        a(href="https://www.meetup.com/Peoria-Podcast-Alliance-Meetup/")
+          include ./img/meetup.svg
+        a(href="https://twitter.com/peoriapodcasts")
+          include ./img/twitter.svg
