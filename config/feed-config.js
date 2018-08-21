@@ -113,6 +113,11 @@ feed = {
             "name"              : "Craft Beer Digest",
             "count"             : 5,
             "feed_url"          : "http://craftbeerdigest.libsyn.com/rss"
+        },
+        {
+            "name"              : "Makers on Tap",
+            "count"             : 5,
+            "feed_url"          : "https://makersontap.com/feed/podcast/makers-on-tap"
         }
     ]
 };
