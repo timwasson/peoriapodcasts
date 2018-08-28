@@ -19,6 +19,10 @@ rss_braider.logger.level('info');
 cron.schedule('0 * * * *', function(){
   console.log('Building XML; It does this once per hour');
 
+  rebuild();
+});
+
+function rebuild() {
   rss_braider.processFeed('ppa', 'rss', function(err, data){
     if (err) {
       return console.log(err);
@@ -31,4 +35,6 @@ cron.schedule('0 * * * *', function(){
       }
     });
   });
-});
+}
+
+rebuild();
