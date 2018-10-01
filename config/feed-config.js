@@ -123,6 +123,16 @@ feed = {
             "name"              : "Champagne Tuesdays",
             "count"             : 5,
             "feed_url"          : "http://champagnetuesday.blubrry.net/feed/podcast/"
+        },
+        {
+            "name"              : "Part Time Parent",
+            "count"             : 5,
+            "feed_url"          : "https://parttimeparentpodcast.podbean.com/feed.xml"
+        },
+        {
+            "name"              : "Do or Dice",
+            "count"             : 5,
+            "feed_url"          : "https://doordicepodcast.podbean.com/feed/"
         }
     ]
 };
