@@ -133,6 +133,11 @@ feed = {
             "name"              : "Do or Dice",
             "count"             : 5,
             "feed_url"          : "https://doordicepodcast.podbean.com/feed/"
+        },
+        {
+            "name"              : "Pop Culure Leftovers",
+            "count"             : 5,
+            "feed_url"          : "http://www.popcultureleftovers.com/feed/podcast/"
         }
     ]
 };
