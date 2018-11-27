@@ -138,6 +138,11 @@ feed = {
             "name"              : "Pop Culure Leftovers",
             "count"             : 5,
             "feed_url"          : "http://www.popcultureleftovers.com/feed/podcast/"
+        },
+        {
+            "name"              : "Fire Drill Podcast",
+            "count"             : 5,
+            "feed_url"          : "https://firedrillpodcast.com/feed/podcast/"
         }
     ]
 };
