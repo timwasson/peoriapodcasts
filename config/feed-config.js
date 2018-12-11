@@ -85,11 +85,6 @@ feed = {
             "feed_url"          : "http://seeingernest.libsyn.com/rss"
         },
         {
-            "name"              : "Broken Funny Bone",
-            "count"             : 5,
-            "feed_url"          : "http://brokenfunnybonepodcast.libsyn.com/rss"
-        },
-        {
             "name"              : "Karaok Big E",
             "count"             : 5,
             "feed_url"          : "http://feeds.feedburner.com/karaokbige"
