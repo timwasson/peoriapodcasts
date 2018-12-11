@@ -143,6 +143,16 @@ feed = {
             "name"              : "Fire Drill Podcast",
             "count"             : 5,
             "feed_url"          : "https://firedrillpodcast.com/feed/podcast/"
+        },
+        {
+            "name"              : "Throwin' Wrenches",
+            "count"             : 5,
+            "feed_url"          : "http://throwinwrenches.com/feed"
+        },
+        {
+            "name"              : "Geek Dive",
+            "count"             : 5,
+            "feed_url"          : "https://anchor.fm/s/69a20a8/podcast/rss"
         }
     ]
 };
