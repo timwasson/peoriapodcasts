@@ -148,6 +148,16 @@ feed = {
             "name"              : "Geek Dive",
             "count"             : 5,
             "feed_url"          : "https://anchor.fm/s/69a20a8/podcast/rss"
+        },
+        {
+            "name"              : "NatPark Stories",
+            "count"             : 5,
+            "feed_url"          : "http://natparkstories.libsyn.com/rss"
+        },
+        {
+            "name"              : "Pabcast",
+            "count"             : 5,
+            "feed_url"          : "https://rss.simplecast.com/podcasts/7664/rss"
         }
     ]
 };
