@@ -158,6 +158,11 @@ feed = {
             "name"              : "Pabcast",
             "count"             : 5,
             "feed_url"          : "https://rss.simplecast.com/podcasts/7664/rss"
+        },
+        {
+            "name"              : "Because I Said So",
+            "count"             : 5,
+            "feed_url"          : "http://becauseisaidso.pub/feed/podcast/"
         }
     ]
 };
