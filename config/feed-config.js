@@ -104,11 +104,13 @@ feed = {
             "count"             : 5,
             "feed_url"          : "http://dishingdisney.libsyn.com/rss"
         },
+        /*
         {
             "name"              : "Craft Beer Digest",
             "count"             : 5,
             "feed_url"          : "http://craftbeerdigest.libsyn.com/rss"
         },
+        */
         {
             "name"              : "Makers on Tap",
             "count"             : 5,
@@ -129,11 +131,13 @@ feed = {
             "count"             : 5,
             "feed_url"          : "https://doordicepodcast.podbean.com/feed/"
         },
+        /*
         {
-            "name"              : "Pop Culure Leftovers",
+            "name"              : "Pop Culture Leftovers",
             "count"             : 5,
             "feed_url"          : "http://www.popcultureleftovers.com/feed/podcast/"
         },
+        */
         {
             "name"              : "Fire Drill Podcast",
             "count"             : 5,
